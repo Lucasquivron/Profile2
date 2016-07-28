@@ -1,0 +1,26 @@
+.media {
+  display: flex;
+}
+.media-body {
+  flex: 1 1 auto;
+  padding: 10px;
+}
+.media-body img {
+  width: 100%;
+}
+.media-aside {
+  flex: 0 0 400px;
+  padding: 30px;
+  align-self: stretch;
+  background: #F8F7F7;
+  border-left: 1px solid #f0efef;
+}
+.media-section {
+  margin: 10px;
+}
+.media-section:first-child {
+  margin-top: 0;
+}
+.media-section:last-child {
+  margin-bottom: 0;
+}

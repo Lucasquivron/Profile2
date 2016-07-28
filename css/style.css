@@ -1,0 +1,75 @@
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/toolbar.css");
+@import url("components/media.css");
+@import url("components/share-links.css");
+
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2 {
+  font-family: Open-sans, sans-serif;
+  color: #333333;
+}
+
+h2 {
+  font-family: Open-sans, sans-serif;
+  font-size: 28px;
+  color: #333333;
+}
+
+h3 {
+  font-family: Open-sans, sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+h4 {
+  font-family: Open-sans, sans-serif;
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+.container-flex {
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container{
+  background-color: white;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.footer {
+  color: #fff;
+  clear: both;
+  margin: 0em 0em 0em 0em;
+  padding: 0.75em 0.75em;
+  background: #2b2d2e;
+  position: relative;
+  bottom: 0px;
+  border-top: 1px solid #000;
+}
+
+
+
